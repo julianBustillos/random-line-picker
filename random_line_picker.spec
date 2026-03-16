@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['RandomLinePicker.pyw'],
+    ['random_line_picker.pyw'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='RandomLinePicker',
+    name='random_line_picker',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
